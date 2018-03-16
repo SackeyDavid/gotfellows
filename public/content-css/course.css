@@ -1,0 +1,54 @@
+body {
+	margin-top: 0%;
+}
+
+section #sidebar {
+
+
+}
+
+#sidebar {
+	
+	
+
+}
+
+
+.sidebar-nav  li {
+	list-style: none;
+	padding: 12%;
+	margin: 1%;
+}
+
+.btn-info {
+	border-radius: 25px;
+	background-color: inherit;
+}
+
+ #coursebar {
+ 	margin-top: -2%;
+ 	min-height: 90%;
+ 	box-shadow:0 0 8px rgba(102,175,233,0.6);
+}
+
+#coursebar .page-header {
+	min-height: 5%;
+}
+
+#coursemain {
+	min-height: 60%;
+}
+
+
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}

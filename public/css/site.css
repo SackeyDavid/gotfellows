@@ -1,0 +1,87 @@
+.what-you-share {
+	color:#7f7f7f;
+}
+
+.what-you-share:hover {
+	color: white;
+}
+
+.thumbnail img{
+	max-height: 150px;
+}
+
+.thumbnail .description {
+	color: #7f7f7f;
+	size: 15px;
+}
+
+#searchinput {
+        min-width: 30em;
+
+ }
+
+ 
+body {
+overflow-y: scroll;
+}
+
+body.modal-open {
+overflow-y: scroll;
+margin: 0;
+}
+
+.header {
+	position: fixed;
+
+    left: 0;
+
+    right: 0;
+
+    z-index: 1002;
+}
+
+.modal {
+overflow: auto;
+}
+
+.modal-dialog {
+
+  
+  
+}
+
+#sentDialog .modal.fade:not(.in) .modal-dialog {
+	-webkit-transform: translate3d(0, -25%, 0);
+	transform: translate3d(0, -25%, 0);
+}
+
+ #sentDialog .modal-dialog {
+	margin-top: 5%;
+	margin-right: 45%;
+	height: auto;
+	margin-left: -39%;
+	width: 80%;
+
+}
+
+#postsDialog .modal-dialog {
+	margin-top: 5%;
+	margin-right: 45%;
+	height: auto;
+	margin-left: -39%;
+	width: 80%;
+
+}
+
+.no-decoration {
+	text-decoration: none;
+}
+/*
+.posts:hover {
+  border-top: 1px solid rgba(255,255,255,0);
+    background-color: rgba(105,105,105,0);
+}
+.well:hover {
+  border-top: 1px solid rgba(255,255,255,0);
+    background-color: rgba(105,105,105,0);
+}*/

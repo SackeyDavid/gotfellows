@@ -1,0 +1,17 @@
+ #registerDialog modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  padding: 0;
+  border-style: none;
+}
+
+#registerDialog modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+  background-color: inherit;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  border:0px;
+}
